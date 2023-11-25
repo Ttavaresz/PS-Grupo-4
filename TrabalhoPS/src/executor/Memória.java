@@ -1,11 +1,11 @@
 package executor;
 
 public class Memória {
-	private String[] memória = new String[150];
+	protected String[] memória = new String[10000];
 	private int contador = 0;
 	
 	Memória() {
-		for(int i = 0;i < 150;i++) {  //PREENCHE A MEMÓRIA COM 000000
+		for(int i = 0;i < 10000 ;i++) {  //PREENCHE A MEMÓRIA COM 000000
 			memória[i] = "000000";
 		}
 	}
