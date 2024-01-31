@@ -5,7 +5,7 @@ public class Memória {
 	private int contador = 0;
 	
 	Memória() {
-		for(int i = 0;i < 10000 ;i++) {  //PREENCHE A MEMÓRIA COM 000000
+		for(int i = 0;i < 200 ;i++) {  //PREENCHE A MEMÓRIA COM 000000
 			memória[i] = "000000";
 		}
 	}
@@ -16,11 +16,15 @@ public class Memória {
 	}
 	
 	public String getMemória() {
-		return memória[contador];
+		 if (contador > 0) {
+	            return memória[contador - 1];
+	        } else {
+	            return "N/A"; // Ou qualquer valor que faça sentido quando não há elementos na memória
+	        }
 	}
 	
 	public void imprimir() {   //para teste 
-		for(int i = 0;i < 150;i++) {
+		for(int i = 0;i < 200 ;i++) {
 			System.out.println(memória[i]);
 		}
 	}

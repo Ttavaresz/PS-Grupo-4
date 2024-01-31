@@ -13,6 +13,10 @@ public class Registrador {
 		return this.valor;
 	}
 	
+	public String getEndereço() {
+		return this.endereço;
+	}
+	
 	public void setValor(int valorAtual) {
 		this.valor = valorAtual;
 	}
@@ -21,7 +25,7 @@ public class Registrador {
 		System.out.println(this.valor);
 		System.out.println(this.endereço);
 	}
-	
+
 	/*
 	 registradores:
 	 A - Acumulador - Operações aritméticas
