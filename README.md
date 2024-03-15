@@ -18,9 +18,9 @@ Uma versão simplificada e hipotética do processador SIC/XE, o que foi implemen
 
 * Leitura de arquivo Objeto;
 
-*Geração de arquivo .asm;
+* Geração de arquivo .asm;
 
-*Interface com informações úteis;
+* Interface com informações úteis;
 
 | Mnemonic | Format | Opcode | Effect | Notes |
 |----------|--------|--------|--------|-------|
