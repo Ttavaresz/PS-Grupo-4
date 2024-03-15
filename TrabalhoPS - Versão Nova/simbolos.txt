@@ -1,0 +1,14 @@
+       LDA VALOR1     // Carrega o valor da memória em A
+       STA VAR1       // Salva o valor de A na memória
+       LDX VALOR2     // Carrega o valor da memória em X
+       STA VAR2       // Salva o valor de X na memória
+LOOP   ADDR VAR1      // Soma em A o valor de VAR1
+       SUBR VAR2     // Subtrai de A o valor de VAR2
+       STL VAR2       // Carrega o valor de L na memória
+       J LOOP         // Salta para LOOP
+VALOR1 WORD 010      // Definição do valor 010 (decimal)
+VALOR2 WORD 014      // Definição do valor 014 (decimal)
+VAR1   RESW 1        // Reserva 1 palavra de memória para VAR1
+VAR2   RESW 1        // Reserva 1 palavra de memória para VAR2
+
+

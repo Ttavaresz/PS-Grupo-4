@@ -1,0 +1,50 @@
+MACRO INPUT
+    LDX BUFFER      
+    RD X            
+    RSUB            
+
+MEND
+
+MACRO LOOP
+ 	LDX #0           
+    LOOP_START       
+    TD COUNT, =X'0'  
+    JEQ LOOP_END                  
+    TIXR T           
+    J LOOP_START     
+    LOOP_END         
+
+MEND
+
+MACRO OUTPUT
+    LDX BUFFER      
+    WD X            
+    RSUB            
+
+MEND
+
+MACRO INPUT
+    LDX BUFFER      
+    RD X            
+    RSUB            
+
+MEND
+
+MACRO LOOP
+ 	LDX #0           
+    LOOP_START       
+    TD COUNT, =X'0'  
+    JEQ LOOP_END                  
+    TIXR T           
+    J LOOP_START     
+    LOOP_END         
+
+MEND
+
+MACRO OUTPUT
+    LDX BUFFER      
+    WD X            
+    RSUB            
+
+MEND
+
