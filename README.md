@@ -1,4 +1,6 @@
 # Programação-de-Sistemas
+### Membros: Daniel Henrique, Karen Satie, Lucas Tavares, Frederico Larangeira, Mauro Gomes, Pedro Volz, Samuel de Araujo
+
 Este repositório foi desenvolvido para a disciplina de Programação de Sistemas, com o principal objetivo de elaborar uma máquina virtual e um montador. Esses componentes são projetados para interpretar e processar códigos em linguagem assembly, produzindo a saída apropriada com base no código-fonte fornecido.
 
 Durante o projeto, implementamos uma máquina virtual que emula a arquitetura SIC/XE, considerada uma evolução do modelo SIC. Este trabalho visa fornecer uma ferramenta capaz de compreender e executar comandos em assembly, simulando o comportamento de um processador real no contexto da arquitetura SIC/XE.
