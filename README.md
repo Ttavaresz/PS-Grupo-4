@@ -1,5 +1,5 @@
 # Programação-de-Sistemas
-### Membros: Daniel Henrique, Karen Satie, Lucas Tavares, Frederico Larangeira, Mauro Gomes e Pedro Volz
+### Membros: Daniel Henrique, Karen Satie, Lucas Tavares, Frederico Larangeira e Mauro Gomes
 
 Este repositório foi desenvolvido para a disciplina de Programação de Sistemas, com o principal objetivo de elaborar uma máquina virtual e um montador. Esses componentes são projetados para interpretar e processar códigos em linguagem assembly, produzindo a saída apropriada com base no código-fonte fornecido.
 
